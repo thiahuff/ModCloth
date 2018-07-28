@@ -1,3 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
+.current-faves {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.fave-item {
+    list-style: none;
+    background: #f2efea;
+    padding: 1rem;
+    margin: 0.25rem 0;
+    text-transform: uppercase;
+    width: calc(25% - 2.5rem);
+}
+
+.fave-item:hover {
+    background: #fdccbc;
+}
+
+.current-faves-section {
+    margin: 0 10%;
+    text-align: center;
+}
