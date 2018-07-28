@@ -1,0 +1,10 @@
+header {
+    background: #f9f6f4;
+    padding-top: 2rem;
+}
+
+#logo {
+    background: url("../../images/logo.png") center center no-repeat;
+    background-size: contain;
+    height: 40px;
+}
